@@ -1,0 +1,25 @@
+{
+  "name": "captcha-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.6",
+    "redis": "^2.7.1",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "co": "^4.6.0",
+    "fs-readfile-promise": "^3.0.0",
+    "node-fetch": "^1.7.1",
+    "request": "^2.81.0",
+    "thunkify": "^2.1.2"
+  }
+}
